@@ -14,7 +14,7 @@ namespace QueryTFS
     class Program
     {
         static HttpClient httpClient = new HttpClient();
-        static string baseUrl; // "https://raulandborg-dryrun.visualstudio.com";
+        static string baseUrl; // "https://your-instance.visualstudio.com";
         static string personalaccesstoken; // "zziofwmllhmjurtk3hsuescdw2iszj5ihvctnxzajviupqdbbawq";
 
         static void Main(string[] args)
